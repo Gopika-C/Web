@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function Armstrong()
+{
+	var flag,num,rem,sum = 0;
+	num = Number(document.getElementById("txt").value);
+	flag = num;
+	while(num > 0)
+	{
+		rem = num%10;
+		sum = sum + rem*rem*rem;
+		num= parseInt(num/10);
+	}
+
+	if(sum == flag)
+	{
+		window.alert("The inputed number is Armstrong");
+	}
+	else
+	{
+		window.alert("The inputed number is not Armstrong");
+	}
+}
+</script>
+</head>
+<body>
+<br>
+<h1>Whether a number is Armstrong or not</h1>
+Enter The Number :<input type="text" name="t1" id = "txt"/>
+<br>
+<button onClick="Armstrong()">CHECK</button>
+</body>
+</html>
