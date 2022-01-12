@@ -1,0 +1,76 @@
+<html>
+  <head>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+			*{
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+			}
+			li, a {
+				font-family: "montserrat", sans-serif;
+				font-weight: 500;
+				font-size: 16px;
+				color: #fff;
+				text-decoration: none;
+			}
+			header{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 30px 10%;
+				background: linear-gradient(to right, #74ebd5, #9face6);
+			}
+			.logo{
+				cursor: pointer;
+				color: black;
+				font-size: larger;
+			}
+			.nav_links{
+				list-style: none;
+			}
+			.nav_links li {
+				display: inline-block;
+				padding: 0 20px;
+			}
+			body{
+				background-image: url("https://avante.biz/wp-content/uploads/Travel-Desktop-Backgrounds/Travel-Desktop-Backgrounds-053.jpg");
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+			.main{
+				text-align: center;
+				padding-top: 20px;
+				padding-bottom: 30px;
+			}
+			.box{
+				background-color: #fff;
+				border-radius: 10px;
+				margin: auto;
+				width: 50%;
+				padding: 25px;
+				text-align: center;
+			}
+		</style>
+  </head>
+  <body>
+      <header>
+          <div class="logo">
+              <h1>Home</h1>
+          </div>
+          <nav>
+                <ul class="nav_links">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                </ul>
+          </nav>
+      </header>
+      <div class="main">
+          <h1>Welcome</h1>
+        <h3>This is the Home page</h3>
+      </div>
+      <div class="box">
+        <p>Please Login in to continue</p>
+    </div>
+    </body>
+</html>
